@@ -1,0 +1,25 @@
+{
+  "name": "local-image-console",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "bin": { "image-console": "src/cli/index.js" },
+  "scripts": {
+    "dev": "node src/server/server.js",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "build": "vite build",
+    "preview": "vite preview --host 127.0.0.1",
+    "cli": "node src/cli/index.js"
+  },
+  "dependencies": {
+    "@vitejs/plugin-react": "latest",
+    "commander": "latest",
+    "express": "latest",
+    "multer": "latest",
+    "vite": "latest",
+    "react": "latest",
+    "react-dom": "latest"
+  },
+  "devDependencies": { "vitest": "latest" }
+}
