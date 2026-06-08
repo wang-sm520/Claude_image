@@ -28,6 +28,8 @@ cd Claude_image
 ~/.claude/skills/local-image-skill/SKILL.md
 ```
 
+安装时会把 skill 里的项目路径替换成你当前 clone 的目录，所以不同设备不需要使用相同路径。
+
 ## 配置 API
 
 不要把 API key 提交到 GitHub。每个人都在自己电脑上配置：
